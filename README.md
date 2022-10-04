@@ -11,6 +11,9 @@ uMario Vita port ported back to PC with additional features.
 - <kbd>ESC</kbd> - enter menu in game and dismiss it.
 - <kbd>Enter</kbd> - accept in menu.
 
+## New features
+Now you can go fullscreen (real resolution is 960x540, it's just scaling and only aspect ratio supported is 16x9).
+
 ## Known issues 
 1. Sometimes player becomes invincible and stays like that until restarting game or taking a star.
 2. Sometimes some sounds are loud.
