@@ -20,7 +20,7 @@ uMario Vita port ported back to PC with additional features.
 
 ## Build (on Windows)
 1. Ensure you have all necessaire tools installed and wrote to your PATH variable (cmake, make, mingw, git, etc.).
-2. Install [SDL2](https://github.com/libsdl-org/SDL/releases/tag/release-2.24.0) (put contents of SDL2-devel.../x86-64... somewhere). As well as [SDL_Image](https://github.com/libsdl-org/SDL_image/releases/tag/release-2.6.2) and [SDL_Mixer](https://github.com/libsdl-org/SDL_mixer/releases/tag/release-2.6.2) (put contents to the same directory as for SDL2).
+2. Install [SDL2](https://github.com/libsdl-org/SDL/releases/tag/release-2.24.0) (put contents of SDL2-devel...mingw.zip/x86-64... somewhere). As well as [SDL_Image](https://github.com/libsdl-org/SDL_image/releases/tag/release-2.6.2) and [SDL_Mixer](https://github.com/libsdl-org/SDL_mixer/releases/tag/release-2.6.2) (put contents to the same directory as for SDL2).
 3. Clone repo:
   ```
   git clone https://github.com/Hammerill/uMario_Enhanced && cd uMario_Enhanced
