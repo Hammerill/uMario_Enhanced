@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.82)
 
-set(PKGS "C:/Users/petrovk/pkgs")	#CHANGE PATH TO PACKAGES HERE
+set(PKGS "")	#CHANGE PATH TO PACKAGES HERE
 
 set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_CURRENT_SOURCE_DIR}/icon.rc")
 

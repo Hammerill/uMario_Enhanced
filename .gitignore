@@ -32,6 +32,7 @@ CMakeFiles
 files
 cmake_install.cmake
 CMakeCache.txt
+CMakeLists.txt
 uMario*
 .vscode
 Makefile
