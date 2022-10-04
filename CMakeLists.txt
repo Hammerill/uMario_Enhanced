@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION 2.82)
+
+set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_CURRENT_SOURCE_DIR}/icon.rc")
+
+file(GLOB_RECURSE SOURCES "uNext/*.cpp")
+add_executable(${CMAKE_PROJECT_NAME} ${SOURCES} ${APP_ICON_RESOURCE_WINDOWS})
+
+project(uMario)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -pedantic -pthread -std=c++11 -Wl,-subsystem,windows")
+
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+	"C:/Users/petrovk/pkgs/include",
+	"C:/Users/petrovk/pkgs/include/SDL2"
+)
+
+target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
+    "C:/Users/petrovk/pkgs/lib"
+)
+
+target_link_libraries(${CMAKE_PROJECT_NAME}
+	SDL2_image
+	SDL2_mixer
+	mingw32
+    SDL2main
+	SDL2
+)
